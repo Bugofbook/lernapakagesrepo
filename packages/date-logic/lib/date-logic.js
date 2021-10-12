@@ -1,7 +1,7 @@
 'use strict';
 // 111
 module.exports = function getDate() {
-    return new Date();
+    return aaa();
   };
 
 function aaa() {
