@@ -3,3 +3,7 @@
 module.exports = function getDate() {
     return new Date();
   };
+
+function aaa() {
+    return new Date();
+}
