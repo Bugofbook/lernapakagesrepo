@@ -1,0 +1,33 @@
+{
+  "name": "lernapakagesrepo",
+  "version": "1.0.0",
+  "description": "a repo with multiple packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugofbook/lernapakagesrepo.git"
+  },
+  "keywords": [
+    "lerna",
+    "monorepo"
+  ],
+  "author": "bugofbook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugofbook/lernapakagesrepo/issues"
+  },
+  "homepage": "https://github.com/bugofbook/lernapakagesrepo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "jest": "^27.2.5",
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "@bugofbook/data-logic": "file:packages/date-logic"
+  }
+}
